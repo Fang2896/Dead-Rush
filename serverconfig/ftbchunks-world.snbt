@@ -117,4 +117,17 @@
 	# Requires KubeJS and/or Gamestages to be installed.
 	# Default: false
 	require_game_stage: false
+	waypoint_sharing: {
+		# Allow players to share waypoints with their party.
+		# Default: true
+		waypoint_sharing_party: true
+		
+		# Allow players to share waypoints with other players.
+		# Default: true
+		waypoint_sharing_players: true
+		
+		# Allow players to share waypoints with the entire server.
+		# Default: true
+		waypoint_sharing_server: true
+	}
 }

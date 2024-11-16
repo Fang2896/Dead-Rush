@@ -38,6 +38,8 @@
 	upgradeWhitelist = []
 	#Upgrade Blacklist. Use an item's id to prevent it from being upgraded, ex: "minecraft:iron_sword"
 	upgradeBlacklist = []
+	#Whether merging scrolls with ink to upgrade them in the Arcane Anvil is enabled.
+	scrollMerging = true
 
 ["Imbue Overrides"]
 	#Use these lists to change what items can interact with the Arcane Anvil's imbue system.
